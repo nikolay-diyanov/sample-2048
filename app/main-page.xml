@@ -1,7 +1,24 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" cssClass="page" backgroundColor="#fcf9ef">
   <StackLayout>
-    <Label text="Tap the button" class="title"/>
-    <Button text="TAP" tap="{{ onTap }}" />
-    <Label text="{{ message }}" class="message" textWrap="true"/>
+    <Label height='35%'/>
+      <GridLayout id="grid" columns="*, *, *, *" rows="*, *, *, *" width='95%' height='55%' style.backgroundColor="#bcada1" paddingRight="10" paddingBottom="10" >
+        <GridLayout id="v00" marginTop='3%' marginLeft='3%' row="0" col="0" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v01" marginTop='3%' marginLeft='3%' row="0" col="1" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v02" marginTop='3%' marginLeft='3%' row="0" col="2" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v03" marginTop='3%' marginLeft='3%' row="0" col="3" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v10" marginTop='3%' marginLeft='3%' row="1" col="0" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v11" marginTop='3%' marginLeft='3%' row="1" col="1" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v12" marginTop='3%' marginLeft='3%' row="1" col="2" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v13" marginTop='3%' marginLeft='3%' row="1" col="3" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v20" marginTop='3%' marginLeft='3%' row="2" col="0" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v21" marginTop='3%' marginLeft='3%' row="2" col="1" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v22" marginTop='3%' marginLeft='3%' row="2" col="2" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v23" marginTop='3%' marginLeft='3%' row="2" col="3" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v30" marginTop='3%' marginLeft='3%' row="3" col="0" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v31" marginTop='3%' marginLeft='3%' row="3" col="1" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v32" marginTop='3%' marginLeft='3%' row="3" col="2" cssClass="tileHolder"/>
+        <GridLayout columns="*" rows="*" id="v33" marginTop='3%' marginLeft='3%' row="3" col="3" cssClass="tileHolder"/>
+      </GridLayout>
+    <Label height='10%'/>
   </StackLayout>
 </Page>
